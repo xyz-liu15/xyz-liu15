@@ -1,20 +1,27 @@
-name: WakaTime Stats Update
+name: Update WakaTime Stats
+
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天UTC 0点更新
-  workflow_dispatch: # 添加手动触发选项
+    - cron: "0 * * * *" # 每小时更新一次
+  workflow_dispatch: # 允许手动触发
 
 jobs:
-  update-stats:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      - name: Update WakaTime Stats
-        uses: anmol098/waka-readme-stats@master
+      - name: Update WakaTime stats in README
+        uses: athul/waka-readme@v2.3.0
         with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 必须是你生成的 PAT（具备 repo 和 read:user 权限）
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_OS: "true"
-          SHOW_PROJECTS: "true"
-          DEBUG_LOGGING: "true" # 开启调试模式
+          SHOW_OS: true
+          SHOW_PROJECTS: true
+          SHOW_TIMEZONE: true
+          SHOW_EDITORS: true
+          SHOW_LANGUAGE: true
+          SHOW_LINES_OF_CODE: true
+          SHOW_PROFILE_VIEWS: true
+          SHOW_COMMIT: true
+          SHOW_LANGUAGE_PER_REPO: true
+          SHOW_LOC_CHART: true
+          DEBUG_LOGGING: true  # 正确的调试参数

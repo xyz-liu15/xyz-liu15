@@ -2,26 +2,36 @@ name: Update WakaTime Stats
 
 on:
   schedule:
-    - cron: "0 * * * *" # 每小时更新一次
-  workflow_dispatch: # 允许手动触发
+    - cron: "0 0 * * *" # 每天更新一次，而不是每小时
+  workflow_dispatch: # 保留手动触发功能
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    name: WakaTime Readme
     steps:
+      - uses: actions/checkout@v3 # 使用最新的稳定版本
+        with:
+          fetch-depth: 1 # 减少克隆深度，提高性能
+          
       - name: Update WakaTime stats in README
         uses: athul/waka-readme@master
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 必须是你生成的 PAT（具备 repo 和 read:user 权限）
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true # 显示标题
+          SHOW_TOTAL: true # 显示总计时间
           SHOW_OS: true
           SHOW_PROJECTS: true
-          SHOW_TIMEZONE: true
+          SHOW_TIMEZONE: false # 关闭不必要的时区显示
           SHOW_EDITORS: true
           SHOW_LANGUAGE: true
           SHOW_LINES_OF_CODE: true
-          SHOW_PROFILE_VIEWS: true
+          SHOW_PROFILE_VIEWS: false # 关闭不相关的配置项
           SHOW_COMMIT: true
-          SHOW_LANGUAGE_PER_REPO: true
-          SHOW_LOC_CHART: true
-          DEBUG_LOGGING: true  # 正确的调试参数
+          SHOW_LANGUAGE_PER_REPO: false # 关闭过于详细的语言统计
+          SHOW_LOC_CHART: false # 关闭图表以减少README长度
+          BLOCKS: ⣿⣾⣽⣻⢿⡿⣟⣯⣷ # 使用更美观的方块字符
+          TIME_RANGE: last_7_days # 只显示最近7天的数据
+          LANG_COUNT: 8 # 限制显示的语言数量
+          DEBUG_LOGGING: false # 生产环境关闭调试日志

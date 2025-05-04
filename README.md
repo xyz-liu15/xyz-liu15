@@ -2,7 +2,7 @@
 🌱 I’m currently learning Python<br>
 
 ## ⏳ Coding time today
-```wakatime
+wakatime
 <!--START_SECTION:waka-->
 
 ```txt

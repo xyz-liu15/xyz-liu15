@@ -19,7 +19,7 @@ jobs:
         run: git rm --cached README.md
 
       - name: Update WakaTime Stats
-        uses: athul/waka-readme@v5.0.0
+        uses: athul/waka-readme@master
         env:
           ACTIONS_STEP_DEBUG: true  # 调试模式
         with:

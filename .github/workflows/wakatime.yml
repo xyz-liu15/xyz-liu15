@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update WakaTime stats in README
-        uses: athul/waka-readme@v2.3.0
+        uses: athul/waka-readme@v0.2.2
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 必须是你生成的 PAT（具备 repo 和 read:user 权限）
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}

@@ -1,7 +1,7 @@
 # 💫 About Me:
 🌱 I'm currently learning Python<br>
 
-## ⏳ Coding time today
+## ⏳ Coding time weekly
 <!--START_SECTION:waka-->
 
 ```txt

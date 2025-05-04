@@ -2,28 +2,30 @@ name: Update WakaTime Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天更新一次
-  workflow_dispatch: # 保留手动触发功能
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    name: WakaTime Readme
+    env:
+      TZ: Asia/Shanghai  # 设置时区
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 1
-          
-      - name: Update WakaTime stats in README
-        uses: athul/waka-readme@master
+          ref: main  # 指定分支
+
+      - name: Clear README Cache
+        run: git rm --cached README.md
+
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@v5.0.0
+        env:
+          ACTIONS_STEP_DEBUG: true  # 调试模式
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
-          SHOW_TOTAL: true
-          BLOCKS: ⣿⣿⣶⣵⣿⣿⣶⣵
-          TIME_RANGE: this_week
-          LANG_COUNT: 10
+          TIME_RANGE: last_7_days
           SHOW_TIME: true
-          SHOW_MASKED_TIME: false
           CODE_LANG: txt

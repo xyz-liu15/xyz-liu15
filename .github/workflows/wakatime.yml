@@ -17,4 +17,4 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_OS: "true"
           SHOW_PROJECTS: "true"
-          DEBUG: "true" # 开启调试模式
+          DEBUG_LOGGING: "true" # 开启调试模式

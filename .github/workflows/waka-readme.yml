@@ -1,0 +1,23 @@
+name: Waka Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每两小时更新一次
+    - cron: "0 */2 * * *"
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@v3.0.0
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 5
+          SHOW_TITLE: true
+          SHOW_TOTAL: true
+          SHOW_TIME: true
+          COMMIT_MESSAGE: "chore: update WakaTime stats"
+          BLOCKS: "░▒▓"

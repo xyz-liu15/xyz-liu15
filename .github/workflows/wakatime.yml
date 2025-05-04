@@ -21,17 +21,9 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           SHOW_TOTAL: true
-          SHOW_OS: true
-          SHOW_PROJECTS: true
-          SHOW_EDITORS: true
-          SHOW_LANGUAGE: true
-          SHOW_LINES_OF_CODE: true
-          SHOW_COMMIT: true
           BLOCKS: ⣿⣿⣶⣵⣿⣿⣶⣵
           TIME_RANGE: last_7_days
           LANG_COUNT: 10
-          SHOW_PROFILE_VIEWS: false
-          SHOW_LOC_CHART: true # 启用图表显示
-          SHOW_DAYS_OF_WEEK: true # 显示每周工作日数据
-          SHOW_SHORT_INFO: true # 显示简短信息
-          LOCALE: zh # 使用中文显示
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: false
+          CODE_LANG: txt

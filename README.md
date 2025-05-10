@@ -5,15 +5,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 May 2025 - To: 09 May 2025
+From: 03 May 2025 - To: 10 May 2025
 
-Total Time: 5 hrs 1 min
+Total Time: 5 hrs 5 mins
 
-Markdown     1 hr 47 mins    ▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░░░   34.03 %
-JavaScript   1 hr 41 mins    ▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░   31.87 %
-HTML         35 mins         ▓▓▓░░░░░░░░░░░░░░░░░░░░░░   11.05 %
-TOML         32 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.15 %
-Python       22 mins         ▓▒░░░░░░░░░░░░░░░░░░░░░░░   06.98 %
+Markdown     1 hr 47 mins    ▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░░░   33.61 %
+JavaScript   1 hr 41 mins    ▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░   31.47 %
+HTML         35 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.91 %
+TOML         32 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.03 %
+Python       24 mins         ▓▓░░░░░░░░░░░░░░░░░░░░░░░   07.72 %
 ```
 
 <!--END_SECTION:waka-->

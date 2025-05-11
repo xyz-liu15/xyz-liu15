@@ -5,15 +5,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 May 2025 - To: 10 May 2025
+From: 04 May 2025 - To: 11 May 2025
 
-Total Time: 5 hrs 5 mins
+Total Time: 2 hrs
 
-Markdown     1 hr 47 mins    ▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░░░   33.61 %
-JavaScript   1 hr 41 mins    ▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░   31.47 %
-HTML         35 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.91 %
-TOML         32 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.03 %
-Python       24 mins         ▓▓░░░░░░░░░░░░░░░░░░░░░░░   07.72 %
+Markdown     1 hr 10 mins    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░   58.05 %
+Python       30 mins         ▓▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░   25.41 %
+Git Config   11 mins         ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   09.53 %
+INI          6 mins          ▓▒░░░░░░░░░░░░░░░░░░░░░░░   05.42 %
+Bash         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 %
 ```
 
 <!--END_SECTION:waka-->

@@ -3,12 +3,12 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # 每两小时更新一次
+    # 每两小时运行一次
     - cron: "0 */2 * * *"
 
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: 更新此仓库的 README
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@v0.3.1
@@ -19,5 +19,5 @@ jobs:
           SHOW_TITLE: true
           SHOW_TOTAL: true
           SHOW_TIME: true
-          COMMIT_MESSAGE: "chore: update WakaTime stats"
+          COMMIT_MESSAGE: "chore: 更新 WakaTime 统计数据"
           BLOCKS: "░▒▓"

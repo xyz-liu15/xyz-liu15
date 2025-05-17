@@ -5,14 +5,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 May 2025 - To: 16 May 2025
+From: 10 May 2025 - To: 17 May 2025
 
-Total Time: 10 hrs 23 mins
+Total Time: 10 hrs 19 mins
 
-Python       9 hrs 54 mins   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░   95.21 %
-Git Config   11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.88 %
-Bash         9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
-INI          6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.06 %
+Python       9 hrs 51 mins   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░   95.45 %
+Git Config   11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.83 %
+Bash         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
+INI          6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.02 %
 YAML         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 %
 ```
 

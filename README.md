@@ -5,13 +5,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 May 2025 - To: 21 May 2025
+From: 15 May 2025 - To: 22 May 2025
 
-Total Time: 1 hr 41 mins
+Total Time: 45 mins
 
-Python       1 hr 36 mins    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░   95.72 %
-Bash         4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   04.25 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
+Python       21 mins         ▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░   46.57 %
+Markdown     19 mins         ▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░   41.89 %
+Git Config   5 mins          ▓▓▓░░░░░░░░░░░░░░░░░░░░░░   11.47 %
+Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 %
 ```
 
 <!--END_SECTION:waka-->

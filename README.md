@@ -5,14 +5,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 15 May 2025 - To: 22 May 2025
+From: 16 May 2025 - To: 23 May 2025
 
-Total Time: 45 mins
+Total Time: 50 mins
 
-Python       21 mins         ▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░   46.57 %
-Markdown     19 mins         ▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░   41.89 %
-Git Config   5 mins          ▓▓▓░░░░░░░░░░░░░░░░░░░░░░   11.47 %
-Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 %
+Markdown          19 mins         ▓▓▓▓▓▓▓▓▓▒░░░░░░░░░░░░░░░   38.16 %
+XML               14 mins         ▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░   28.58 %
+Java              11 mins         ▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░░   22.46 %
+Git Config        5 mins          ▓▓▒░░░░░░░░░░░░░░░░░░░░░░   10.40 %
+Java Properties   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
 ```
 
 <!--END_SECTION:waka-->

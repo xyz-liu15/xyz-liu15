@@ -5,13 +5,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 June 2025 - To: 25 June 2025
+From: 19 June 2025 - To: 26 June 2025
 
-Total Time: 7 mins
+Total Time: 15 mins
 
-Markdown   4 mins          ▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░   44.35 %
-Other      2 mins          ▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░   28.95 %
-Python     2 mins          ▓▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░   26.70 %
+Python      8 mins          ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░   52.22 %
+Markdown    4 mins          ▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░   27.99 %
+Batchfile   2 mins          ▓▓▓▓░░░░░░░░░░░░░░░░░░░░░   16.41 %
+Other       0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.38 %
 ```
 
 <!--END_SECTION:waka-->

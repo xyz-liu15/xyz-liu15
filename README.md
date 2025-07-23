@@ -18,7 +18,7 @@ Other    0 secs          ░░░░░░░░░░░░░░░░░░�
 ## 🌐 Socials:
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/xyz_liu15)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xyz.liu15@gmail.com)
-[![博客](https://img.shields.io/badge/博客-FF5722?logo=blogger&logoColor=white)](https://blog.thinktechly.cn)
+
 
 # 💻 Tech Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
